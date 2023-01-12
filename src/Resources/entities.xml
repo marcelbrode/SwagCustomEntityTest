@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../src/Core/System/CustomEntity/Xml/entity-1.0.xsd">
+<!--    <entity name="custom_entity_random_bullshit" cms-aware="true">-->
+    <entity name="custom_entity_random_stuff">
+        <fields>
+            <string name="title" store-api-aware="true"/>
+            <text name="description" store-api-aware="true"/>
+            <int name="position" store-api-aware="true"/>
+            <float name="rating" store-api-aware="true"/>
+            <bool name="isAwesome" store-api-aware="true"/>
+            <json name="someJson" store-api-aware="true"/>
+            <email name="someMail" store-api-aware="true"/>
+            <price name="nicePrice" store-api-aware="true"/>
+            <date name="someDate" store-api-aware="true"/>
+        </fields>
+    </entity>
+    <entity name="custom_entity_no_cms_aware">
+        <fields>
+            <string name="title" store-api-aware="true"/>
+        </fields>
+    </entity>
+</entities>

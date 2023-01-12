@@ -1,0 +1,46 @@
+<admin-ui>
+    <entity name="custom_entity_random_stuff" navigation-parent="sw-content" position="50" icon="regular-tools-alt" color="#f00">
+        <listing>
+            <columns>
+                <column ref="title"/>
+                <column ref="description"/>
+                <column ref="position" hidden="true" />
+            </columns>
+        </listing>
+        <detail>
+            <tabs>
+                <tab name="main">
+                    <card name="general">
+                        <field ref="title"/>
+<!--                        <field ref="cmsAwareTitle"/>-->
+                        <field ref="description"/>
+                        <field ref="position"/>
+                        <field ref="rating"/>
+                        <field ref="isAwesome"/>
+                        <field ref="someJson"/>
+                        <field ref="someMail"/>
+                        <field ref="nicePrice"/>
+                        <field ref="someDate"/>
+                    </card>
+                    <card name="cardClone">
+                        <field ref="title"/>
+                        <field ref="description"/>
+                        <field ref="position"/>
+                    </card>
+                </tab>
+                <tab name="tabClone">
+                    <card name="general">
+                        <field ref="title"/>
+                        <field ref="description"/>
+                        <field ref="position"/>
+                    </card>
+                    <card name="cardClone">
+                        <field ref="title"/>
+                        <field ref="description"/>
+                        <field ref="position"/>
+                    </card>
+                </tab>
+            </tabs>
+        </detail>
+    </entity>
+</admin-ui>

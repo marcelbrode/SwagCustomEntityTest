@@ -1,0 +1,30 @@
+{
+    "custom_entity_random_stuff": {
+        "moduleTitle": "Testzeug",
+        "list": {
+            "title": "Titel",
+            "description": "Beschreibung",
+            "position": "Position"
+        },
+        "tabs": {
+            "main": "Haupt-tab",
+            "tabClone": "Haupt-tab-klon"
+        },
+        "cards": {
+            "general": "Allgemeines",
+            "cardClone": "Allgemeines - Kartenklon"
+        },
+        "fields": {
+            "title": "Titel",
+            "cmsAwareTitle": "CMS-Aware-Title",
+            "description": "Beschreibung",
+            "position": "Position",
+            "rating": "Bewertung",
+            "isAwesome": "Ist unglaublich",
+            "someJson": "Irgendwelches JSON",
+            "someMail": "Irgendweine Mail",
+            "nicePrice": "Heißer Preis",
+            "someDate": "Irgendein Datum"
+        }
+    }
+}

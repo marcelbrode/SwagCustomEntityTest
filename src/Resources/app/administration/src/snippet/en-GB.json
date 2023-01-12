@@ -1,0 +1,30 @@
+{
+    "custom_entity_random_stuff": {
+        "moduleTitle": "Test stuff",
+        "list": {
+            "title": "Title",
+            "description": "Description",
+            "position": "Position"
+        },
+        "tabs": {
+            "main": "Main tab",
+            "tabClone": "Main tab clone"
+        },
+        "cards": {
+            "general": "General",
+            "cardClone": "General - Card clone"
+        },
+        "fields": {
+            "title": "Title",
+            "cmsAwareTitle": "CMS-Aware title",
+            "description": "Description",
+            "position": "Position",
+            "rating": "Rating",
+            "isAwesome": "Is awesome",
+            "someJson": "Some JSON",
+            "someMail": "Some Mail",
+            "nicePrice": "Nice Price",
+            "someDate": "Some Date"
+        }
+    }
+}
