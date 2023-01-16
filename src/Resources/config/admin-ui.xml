@@ -1,5 +1,5 @@
 <admin-ui>
-    <entity name="custom_entity_random_stuff" navigation-parent="sw-content" position="50" icon="regular-tools-alt" color="#f00">
+    <entity name="custom_entity_random_stuff" navigation-parent="sw-content" position="50" icon="regular-tools-alt" color="#5889ff">
         <listing>
             <columns>
                 <column ref="title"/>
