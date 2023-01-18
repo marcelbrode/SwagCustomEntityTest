@@ -2,6 +2,8 @@
     "custom_entity_random_stuff": {
         "moduleTitle": "Testzeug",
         "list": {
+            "emptyState": "Hier gibt's nix zu sehen",
+            "emptyStateSubline": "Dies ist ein benutzerdefiniertes Empty-State-Snippet Deiner Erweiterung mit Individuellen Entitäten.",
             "title": "Titel",
             "description": "Beschreibung",
             "position": "Position"
@@ -21,9 +23,9 @@
             "position": "Position",
             "rating": "Bewertung",
             "isAwesome": "Ist unglaublich",
-            "someJson": "Irgendwelches JSON",
+            "someJson": "Irgendwelches JSON (Fehler gewollt)",
             "someMail": "Irgendweine Mail",
-            "nicePrice": "Heißer Preis",
+            "nicePrice": "Heißer Preis (Fehler gewollt)",
             "someDate": "Irgendein Datum"
         }
     }

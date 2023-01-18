@@ -2,6 +2,8 @@
     "custom_entity_random_stuff": {
         "moduleTitle": "Test stuff",
         "list": {
+            "emptyState": "Nothing to see here",
+            "emptyStateSubline": "This is a custom empty state snippet by your Custom Entity extension.",
             "title": "Title",
             "description": "Description",
             "position": "Position"
@@ -21,9 +23,9 @@
             "position": "Position",
             "rating": "Rating",
             "isAwesome": "Is awesome",
-            "someJson": "Some JSON",
+            "someJson": "Some JSON (Error intended)",
             "someMail": "Some Mail",
-            "nicePrice": "Nice Price",
+            "nicePrice": "Nice Price (Error intended)",
             "someDate": "Some Date"
         }
     }

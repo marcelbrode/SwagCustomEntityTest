@@ -43,4 +43,28 @@
             </tabs>
         </detail>
     </entity>
+    <entity name="custom_entity_no_cms_aware" navigation-parent="sw-content" position="50" icon="regular-tools-alt" color="#eb86ef">
+        <listing>
+            <columns>
+                <column ref="title"/>
+            </columns>
+        </listing>
+        <detail>
+            <tabs>
+                <tab name="main">
+                    <card name="general">
+                        <field ref="title"/>
+                    </card>
+                </tab>
+                <tab name="tabClone">
+                    <card name="general">
+                        <field ref="title"/>
+                    </card>
+                    <card name="cardClone">
+                        <field ref="title"/>
+                    </card>
+                </tab>
+            </tabs>
+        </detail>
+    </entity>
 </admin-ui>
